@@ -3,7 +3,9 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.api.caos import router as caos_router
 from app.api.scraper import router as scraper_router
-
+from app.api.imports import router as imports_router
+from app.api.parser import router as parser_router
+from app.api.comparisons import router as comparisons_router
 
 app = FastAPI(
     title="CAO Monitor API",
@@ -22,6 +24,10 @@ app.add_middleware(
 
 app.include_router(caos_router, prefix="/api")
 app.include_router(scraper_router, prefix="/api")
+app.include_router(imports_router, prefix="/api")
+app.include_router(parser_router, prefix="/api")
+app.include_router(comparisons_router, prefix="/api")
+
 
 
 @app.get("/health")

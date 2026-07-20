@@ -4,6 +4,7 @@ anyio==4.14.2
 beautifulsoup4==4.15.0
 certifi==2026.6.17
 cffi==2.1.0
+charset-normalizer==3.4.9
 click==8.4.2
 cryptography==49.0.0
 deprecation==2.1.0
@@ -17,6 +18,9 @@ hyperframe==6.1.0
 idna==3.18
 multidict==6.7.1
 packaging==26.2
+pdfminer.six==20260107
+pdfplumber==0.11.10
+pillow==12.3.0
 postgrest==2.31.0
 propcache==0.5.2
 pycparser==3.0
@@ -24,6 +28,7 @@ pydantic==2.13.4
 pydantic-settings==2.14.2
 pydantic_core==2.46.4
 PyJWT==2.13.0
+pypdfium2==5.12.1
 python-dotenv==1.2.2
 realtime==2.31.0
 soupsieve==2.9
