@@ -1,9 +1,0 @@
-fastapi>=0.116,<1.0
-uvicorn[standard]>=0.35,<1.0
-pydantic-settings>=2.10,<3.0
-httpx>=0.28,<1.0
-beautifulsoup4>=4.13,<5.0
-pdfplumber>=0.11,<1.0
-supabase>=2.18,<3.0
-python-dateutil>=2.9,<3.0
-pytest>=8.4,<9.0

@@ -1,1 +1,0 @@
-"""CAO Monitor backend package."""
